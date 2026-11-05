@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07152f">
+<title>NOVA - Knowledge Without Limits</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #07152f;
+  color: white;
+}
+
+header {
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #24385c;
+}
+
+.logo {
+  font-size: 29px;
+  font-weight: bold;
+  color: #f5c75e;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 75px 20px;
+  background: linear-gradient(140deg, #102d63, #07152f);
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f5c75e;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #d8e4ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #f5c75e;
+  color: #07152f;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  padding: 45px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #f5c75e;
+  margin-bottom: 25px;
+  font-size: 27px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  max-width: 850px;
+  margin: auto;
+}
+
+.card {
+  background: #10254a;
+  border: 1px solid #294575;
+  padding: 25px 12px;
+  border-radius: 15px;
+}
+
+.card span {
+  font-size: 32px;
+}
+
+.card h3 {
+  margin-top: 12px;
+  color: white;
+}
+
+.card p {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #c4d3ee;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #030b1b;
+  color: #b7c5dc;
+  line-height: 1.8;
+}
+
+@media(max-width: 480px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  nav a {
+    margin-left: 7px;
+    font-size: 12px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">♾️ NOVA</div>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#cours">Cours</a>
+    <a href="#apropos">À propos</a>
+  </nav>
+</header>
+
+<div class="hero" id="accueil">
+  <h1>Bienvenue chez NOVA</h1>
+  <p><strong>Knowledge Without Limits.</strong></p>
+  <p>Apprendre. Découvrir. Réussir.</p>
+  <p>Le savoir ouvre les portes du monde.</p>
+  <a href="#cours" class="btn">Découvrir nos cours</a>
+</div>
+
+<section id="cours">
+  <h2>📚 Nos départements</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <span>🔬</span>
+      <h3>Sciences</h3>
+      <p>Physique, chimie et biologie.</p>
+    </div>
+
+    <div class="card">
+      <span>📐</span>
+      <h3>Mathématiques</h3>
+      <p>Calcul, algèbre et géométrie.</p>
+    </div>
+
+    <div class="card">
+      <span>🌍</span>
+      <h3>Culture</h3>
+      <p>Les pays et leurs traditions.</p>
+    </div>
+
+    <div class="card">
+      <span>💻</span>
+      <h3>Informatique</h3>
+      <p>Technologie et programmation.</p>
+    </div>
+
+    <div class="card">
+      <span>🗣️</span>
+      <h3>Langues</h3>
+      <p>Français, anglais et espagnol.</p>
+    </div>
+
+    <div class="card">
+      <span>📖</span>
+      <h3>Bibliothèque</h3>
+      <p>Livres et connaissances.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>🌟 Notre mission</h2>
+  <p>
+    NOVA est une plateforme éducative qui souhaite
+    rendre le savoir accessible à tous.
+  </p>
+  <p style="margin-top:15px;color:#f5c75e;">
+    Knowledge Without Limits ♾️
+  </p>
+</section>
+
+<footer>
+  <strong>NOVA © 2026</strong>
+  <p>Apprendre • Découvrir • Réussir</p>
+  <p>Une éducation sans limites.</p>
+</footer>
+
+</body>
+</html>
